@@ -29,7 +29,7 @@ body
   width: 350px;
   padding: 40px;
   margin: 20px;
-  background: #3f3f3f;
+  background: #fcfafa;
   border-radius: 10px;
   overflow: hidden;
   z-index: 1;
@@ -56,7 +56,7 @@ body
   left: -200px;
   width: 200px;
   height: 200px;
-  background-color: #3f3f3f;
+  background-color: #f5f3f3;
   transition: cubic-bezier(0.39, 0.58, 0.57, 1) all 0.55s;
   z-index: -1;
   border-radius: 50%;
@@ -101,14 +101,14 @@ body
 .container .content h3
 {
   font-size: 24px;
-  color: #fff;
+  color:  #0e0d0d;
   font-weight: 700;
   margin-bottom: 10px;
 }
 .container .content p
 {
   font-size: 16px;
-  color: #fff;
+  color: #020202;
   font-weight: 300;
 }
 .card .more
@@ -116,7 +116,7 @@ body
   position: relative;
   display: inline-block;
   padding: 10px 15px;
-  color: #383838;
+  color: #f8f7f7;
   background: #2075f5;
   border-radius: 3px;
   cursor: pointer;
