@@ -137,17 +137,17 @@ function measureHumidityStatus(humidity) {
 
 function getIcon(condition) {
   if (condition === "Partly-cloudy-day") {
-    return "icons/sun/27.png";
+    return "27.png";
   } else if (condition === "partly-cloudy-night") {
-    return "icons/moon/15.png";
+    return "15.png";
   } else if (condition === "rain") {
-    return "icons/rain/39.png";
+    return "39.png";
   } else if (condition === "clear-day") {
-    return "icons/sun/26.png";
+    return "26.png";
   } else if (condition === "clear-night") {
-    return "icons/moon/10.png";
+    return "10.png";
   } else {
-    return "icons/sun/26.png";
+    return "26.png";
   }
 }
 
