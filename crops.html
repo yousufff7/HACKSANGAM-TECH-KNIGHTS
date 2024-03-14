@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop Suggestion</title>
+  <link rel="stylesheet" href="crops.css">
+
+  <style>  
+    body  
+    {  
+    background-image:url("https://imageio.forbes.com/specials-images/imageserve/655cb4ad91b6a1c00b4ef3cb/Drone-view-of-vast-onion-field-at-dusk/960x0.jpg?height=531&width=711&fit=bounds");  
+    background-repeat:no-repeat;
+    background-size: 1400px;
+  
+  }  
+    </style>  
+
+</head>
+<body>
+
+  
+  <div class="container">
+    <h1>Crop Suggestion</h1>
+    <label for="temperature">Enter Temperature (°C):</label>
+    <input type="number" id="temperature">
+    <button onclick="suggestCrops()">Get Suggestions</button>
+    <div id="suggestions"></div>
+  </div>
+  <script src="crops.js"></script>
+</body>
+</html>
