@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fertilizer Suggestion</title>
+<link rel="stylesheet" href="style.css">
+
+<style>  
+    body  
+    {  
+    background-image:url("https://imageio.forbes.com/specials-images/imageserve/655cb4ad91b6a1c00b4ef3cb/Drone-view-of-vast-onion-field-at-dusk/960x0.jpg?height=531&width=711&fit=bounds");  
+    background-repeat:no-repeat;
+    background-size: 1400px;
+  
+  }  
+    </style>  
+
+</head>
+<body>
+    <div class="container">
+        <h1>Fertilizer Suggestion</h1>
+        <form id="fertilizerForm">
+            <label for="crop">Select Crop:</label>
+            <select id="crop" name="crop">
+
+                <option value="Wheat">Wheat</option>
+                <option value="Corn">Corn</option>
+                <option value="Rice">Rice</option>
+                <option value="Beans">Beans</option>
+                <option value="Cabbage">Cabbage</option>
+                <option value="Cucumbers">Cucumbers</option>
+                
+                
+
+                <!-- Add more options for different crops -->
+            </select>
+            <label for="soilType">Select Soil Type:</label>
+            <select id="soilType" name="soilType">
+                <option value="Red">Red Soil</option>
+                <option value="Black">Black Soil</option>
+                <option value="Brown">Brown Soil</option>
+                <option value="Clay">Clay Soil</option>
+                <option value="Chalky">Chalky Soil</option>
+                <option value="Peaty">Peaty Soil</option>
+
+
+                
+                <!-- Add more options for different soil types -->
+            </select>
+            <button type="submit">Get Fertilizer Suggestion</button>
+        </form>
+        <div id="fertilizerResult"></div>
+    </div>
+    <script src="fertilizers.js"></script>
+</body>
+</html>
