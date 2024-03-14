@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="community.css">
+    <title>Creative Card Hover Effect and Read More Function</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="icon">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+            </div>
+            <div class="content">
+                <h3>Web Designing</h3>
+                <p><*Farmer 1:* Hey there! Have you checked out the new community tab in AgroAlert?
+
+                    *Farmer 2:* No, not yet. What's it all about?
+                    
+                    Farmer 1: It's pretty cool! The community tab allows us to connect with other farmers in our area and beyond. You can ask questions, share your experiences, and get advice on crops, weather patterns, and pesticides.
+                    
+                    *Farmer 2:* Wow, that sounds really useful. Is it easy to navigate?
+                    
+                    Farmer 1: Yeah, it's straightforward. Once you create an account, you can access the community tab from the main menu. From there, you can browse through posts, ask your own questions, or even start discussions on specific topics.
+                    
+                    Farmer 2: That's great to hear. I've been struggling with pest control in my fields lately. Do you think I could find some advice on that?
+                    
+                    Farmer 1: Definitely! There are lots of experienced farmers on there who are always willing to help out. You can search for topics related to pest control or start a new thread asking for advice. I'm sure you'll get some helpful tips.
+                    
+                    Farmer 2: Awesome, thanks for letting me know. I'll definitely give it a try.
+                    
+                    Farmer 1: No problem at all. Let me know if you need any help getting started or if you have any other questions about the app.
+                    
+                    Farmer 2: Will do. Thanks again!
+                    
+                    /p>
+            </div>
+            <a class="more"></a>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+            </div>
+            <div class="content">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ex numquam alias fugit sunt. Exercitationem corrupti in obcaecati id, quia, corporis atque voluptatibus ducimus illo ut sequi explicabo reprehenderit modi dignissimos error mollitia. Eius magni quos rerum amet aliquam et Eius magni quos rerum amet aliquam et.</p>
+            </div>
+            <a class="more"></a>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fa fa-bullseye" aria-hidden="true"></i>
+            </div>
+            <div class="content">
+                <h3>SEO Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus recusandae a consequuntur! Aperiam nihil quia fuga explicabo at vero magni quisquam non repudiandae quos, minus illum fugit sunt odit excepturi aut. Libero voluptate, facilis placeat accusamus eius blanditiis veritatis unde nisi impedit, sint minima?</p>
+            </div>
+            <a class="more"></a>
+        </div>
+    </div>
+    <script>
+        const more = document.querySelectorAll('.more')
+        for(let i = 0; i<more.length; i++){
+            more[i].addEventListener('click', ()=>{
+                more[i].parentNode.classList.toggle('active')
+            })
+        }
+    </script>
+</body>
+</html>
